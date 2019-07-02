@@ -18,7 +18,7 @@ switch (day) {
         console.log(" Monday");
         break;
     case 2:
-        console.log("Tuesday.");
+        console.log("Tuesday");
         break;
     case 3:
         console.log("wednesday");
@@ -33,10 +33,10 @@ switch (day) {
         console.log("Saturday");
         break;
     case 7:
-        console.log(" Sunday");
+        console.log("Sunday");
         break;
     default:
-        console.log("Something went horribly wrong...");
+        console.log("No day...");
 }
 
 
@@ -44,20 +44,20 @@ switch (day) {
 var text="Hello"; 
 switch (text)     
 {   
-    case "Hello 1":
-        console.log("Hello 1");
+    case "Hey":
+        console.log("Hey");
         break;
 
-    case "Hello 2":
-        console.log("Hello 2 ");
+    case "Hii":
+        console.log("Hii");
         break;
 
     case "Hello":
-        console.log("Text Hello matched ");
+        console.log("Hello");
         break;
 
     default:
-        console.log("This is default selection");
+        console.log("No Matched String");
         break;
 
 }
