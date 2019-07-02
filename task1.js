@@ -4,15 +4,13 @@ function getRandomInt(max) {
   console.log(Math.random());
 
 
-
 function Numbers(min,max){
     console.log(Math.floor(Math.random()*(max-min+1)+min));
     }
     Numbers(2,4)
 
 
-    const day = new Date().getDay()+1;
-
+const day = new Date().getDay()+1;
 switch (day) {
     case 1:
         console.log(" Monday");
